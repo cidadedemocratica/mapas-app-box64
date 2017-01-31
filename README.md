@@ -1,8 +1,8 @@
 
-Mapas Culturas App BOX
+Mapas Culturais App BOX
 =============================
 
-Mapas-app-box é um ambiente de desenvolvimento para aplicativos móveis com Ionic, Cordova e Android. Já está com os pacotes instalados e configurado para a release 1.0.3 do app. 
+Mapas-app-box é um ambiente de desenvolvimento para aplicativos móveis com Ionic, Cordova e Android. Já está com os pacotes instalados e configurado para a release 1.0.3 do app Android do Mapas Culturais (Agenda Cultural).
 
 Além de facilitar o desenvolvimento do aplicativo Android de Agenda Cultural do Mapas Culturais, o Mapas-app-box também fornece um ambiente de desenvolvimento completo para aplicativos Ionic baseados na versão 1 da Lib (v1). Pode ser usado por usuários Windows também.
 
@@ -11,7 +11,7 @@ A Mapas-app-box não foi configurada para desenvolvimento em IOS. Quem precisar,
 
 ### Versões instaladas na VM
 
-Imagem Vagrant box: xxxxxx/xxxxxx
+Imagem Vagrant box: mapas-app-box64
 
 Java: openjdk-8-jdk
 Node.js: v4.4.4
@@ -27,13 +27,14 @@ Description: Ubuntu 14.04.5 LTS
 Type: 64 bits
 
 
-### Installation
+### Instalação
 
 O Mapas-app-box é baseado em Vagrant. Para usuários debian e ubuntu o Vagrant poder ser instalado via "apt-get". Quem quiser instalar direto da fonte acessa vai direto no site do [Vagrant](https://www.vagrantup.com/downloads.html) e escolha sua plataforma. Também é necessário baixar e instalar o [VirtualBox](http://virtualbox.org/).
 
 Uma vez instalados o Vagrant e o VirutalBox, clone (ou baixe) esse repositório, 'cd' dentro da pasta, suba e acesse a máquina, executando:
 
 ```bash
+$ vagrant box add mapas-app-box64 https://drive.google.com/file/d/0B7VSUSGkIS-zTGlGMVowWUdFbUk
 $ vagrant up
 $ vagrant ssh
 ```
