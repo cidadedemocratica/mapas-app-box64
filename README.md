@@ -31,10 +31,14 @@ Type: 64 bits
 
 O Mapas-app-box é baseado em Vagrant. Para usuários debian e ubuntu o Vagrant poder ser instalado via "apt-get". Quem quiser instalar direto da fonte acessa vai direto no site do [Vagrant](https://www.vagrantup.com/downloads.html) e escolha sua plataforma. Também é necessário baixar e instalar o [VirtualBox](http://virtualbox.org/).
 
-Uma vez instalados o Vagrant e o VirutalBox, clone (ou baixe) esse repositório, 'cd' dentro da pasta, suba e acesse a máquina, executando:
+Uma vez instalados o Vagrant e o VirutalBox:
+1) Clone (ou baixe) esse repositório: https://github.com/cidadedemocratica/mapas-app-box64.git
+2) Pelo shell, , 'cd' dentro da pasta do repositorio mapas-app-box64
+3) Baixe o [arquivo da box] (https://drive.google.com/open?id=0B7VSUSGkIS-zTGlGMVowWUdFbUk) (aprox 2GB)
+4) Adicione a box, suba e acesse a máquina, executando:
 
 ```bash
-$ vagrant box add mapas-app-box64 https://drive.google.com/file/d/0B7VSUSGkIS-zTGlGMVowWUdFbUk
+$ vagrant box add mapas-app-box64 mapas-app-box64.box
 $ vagrant up
 $ vagrant ssh
 ```
@@ -42,6 +46,10 @@ $ vagrant ssh
 O usuário da vm é `vagrant` e a senha é `vagrant`. 
 
 A imagem é baseada na versão 14.04 do sistema operacional Ubuntu (trusty) para 64 bits. Ha um script de provisionamento 'bootstrap.sh' que não está sendo executado pelo Vagrantfile, já que os pacotes referidos nele estão todos instalados na VM. Use-o como uma referencia do que foi instalado e ativado na VM.
+
+O App do mapas fica na pasta "/home/vagrant/mapasculturais-app" que é um clone do repositório oficial do app no github: https://github.com/hacklabr/mapasculturais-app.git
+
+O README do app explica como rodar no servidor do ionic ou no dispositivo android. Lembrando que é só compilar e rodar, pois todos os pacotes e dependências já estão instalados.
 
 
 ### Para conectar dispositivos Android
