@@ -34,7 +34,7 @@ O Mapas-app-box é baseado em Vagrant. Para usuários debian e ubuntu o Vagrant 
 Uma vez instalados o Vagrant e o VirutalBox:
 1) Clone (ou baixe) esse repositório: https://github.com/cidadedemocratica/mapas-app-box64.git
 2) Pelo shell, , 'cd' dentro da pasta do repositorio mapas-app-box64
-3) Baixe o [arquivo da box] (https://drive.google.com/open?id=0B7VSUSGkIS-zTGlGMVowWUdFbUk) (aprox 2GB)
+3) Baixe o [arquivo da box] (https://drive.google.com/file/d/0B7VSUSGkIS-zTGlGMVowWUdFbUk) (aprox 2GB)
 4) Adicione a box, suba e acesse a máquina, executando:
 
 ```bash
