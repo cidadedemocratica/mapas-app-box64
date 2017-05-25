@@ -8,6 +8,12 @@ Além de facilitar o desenvolvimento do aplicativo Android de Agenda Cultural do
 
 A Mapas-app-box não foi configurada para desenvolvimento em IOS. Quem precisar, atualize a box que aceitamos pull requests ;-)
 
+### SLIDES DO CURSO HACKEANDO APLICATIVOS ANDROID
+
+[Versão ODP](https://github.com/cidadedemocratica/mapas-app-box64/blob/9c7b4c180223b27c094bfd5024a1a6d68342ecbd/slides/%5BLabs%20Livres%5D%20%5BAula%201%20e%202%5D%20Curso-%20como%20hackear%20e%20modificar%20aplicativos%20livres%20de%20celular%20android.odp?raw=true)
+
+[Versão PDF](https://github.com/cidadedemocratica/mapas-app-box64/raw/master/slides/%5BLabs%20Livres%5D%20%5BAula%201%20e%202%5D%20Curso-%20como%20hackear%20e%20modificar%20aplicativos%20livres%20de%20celular%20android.pdf)
+
 
 ### Versões instaladas na VM
 
